@@ -1,44 +1,45 @@
-"use client"
-import React from 'react'
-import { PiCheckBold } from "react-icons/pi";
-import { useState } from "react";
-
+import React from 'react';
+import { PiCheckBold } from 'react-icons/pi';
+import { CiCircleAlert } from 'react-icons/ci';
+import Link from 'next/link';
 
 const TopHeader = () => {
-  
-  const [language, setLanguage] = useState("en");
-  
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setLanguage(e.target.value);
-  };
-
   return (
-    <div className='w-[1920px] h-[45px] bg-[#272343] text-white px-[300px] py-[14px] '>
-      
-      {/* left side */}
+    <div className='w-full h-[45px] bg-[#272343] text-white px-4 sm:px-8 lg:px-32 py-[14px] flex items-center justify-between'>
+      {/* Left side */}
       <div className="flex items-center gap-2">
-      <PiCheckBold className=''/>
-      <p>Free shipping on all orders over $50</p>
+        <PiCheckBold />
+        <p>Free shipping on all orders over $50</p>
       </div>
 
-      {/* right side */}
-      <div className="">
+      {/* Right side */}
+      <div className="flex items-center justify-center gap-8">
+        {/* Language Selector */}
         <select
-          value={language}
-          onChange={handleLanguageChange}
-          className="bg-gray-700 text-white p-2 rounded-md"
+          defaultValue={""}
+          className="text-white text-right hover:border-2 hover:cursor-pointer  bg-[#272343] border-none"
         >
-          <option value="en">English</option>
-          <option value="es">Spanish</option>
+          <option value="en" className='hover:border-2'>Eng</option>
+          <option value="es">Span</option>
           <option value="fr">French</option>
           {/* Add more languages as needed */}
         </select>
 
-        <Lin
-      </div>
-     
-    </div>
-  )
-}
+        {/* Frequent Asked Questions */}
+        <Link href={'/faqs'}>
+          <span className='hover:border-2'>Faqs</span>
+        </Link>
 
-export default TopHeader
+        {/* Need Help */}
+        <div>
+          <Link href={"/"} className='flex items-center justify-center gap-2'>
+            <CiCircleAlert className='text-[24px] hover:border-2' />
+            <span className='hover:border-2'>Need Help</span>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TopHeader;
