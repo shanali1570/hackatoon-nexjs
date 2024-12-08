@@ -31,7 +31,7 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image3.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
+              className='w-full h-[250px] cursor-pointer hover:border-2'
             />
 
             {/* image 03 */}
@@ -40,7 +40,7 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image9.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
+              className='w-full h-[250px] cursor-pointer hover:border-2'
             />
 
             {/* image 04 */}
@@ -49,7 +49,7 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image11.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
+              className='w-full h-[250px] cursor-pointer hover:border-2'
             />
 
             {/* image 05 */}
@@ -58,7 +58,7 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image14.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
+              className='w-full h-[250px] cursor-pointer hover:border-2'
             />
           </div>
         </div>

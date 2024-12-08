@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 const TopHeader = () => {
   return (
-    <div className='w-full h-[45px] bg-[#272343] text-white px-4 sm:px-8 lg:px-32 py-[14px] flex items-center justify-between'>
+    <div className='w-full h-auto bg-[#272343] text-white px-4 sm:px-8 lg:px-32 py-[14px] flex flex-col md:flex-row items-center justify-between'>
       {/* Left side */}
-      <div className="flex items-center gap-2">
+      <div className="flex  items-center gap-2">
         <PiCheckBold />
         <p>Free shipping on all orders over $50</p>
       </div>
