@@ -11,9 +11,9 @@ const ExploreNew = () => {
         <div className='flex flex-col lg:flex-row items-center justify-center gap-2'>
           {/* Vertical Text and Main Image Section */}
           
-          <div className='flex flex-col lg:flex-row items-center lg:items-start mb-6 lg:mb-0'>
+          <div className='flex flex-col lg:flex-row items-center  mb-6 lg:mb-0 space-x-2 space-y-2'>
             
-            {/* image 01 */}
+ {/* image 01 */}
             <Image
               width={500}
               height={500}
@@ -21,17 +21,17 @@ const ExploreNew = () => {
               src={"/itemcategory1.png"}
               className='w-[350] h-[400] cursor-pointer hover:border-2'
             />
-          </div>
 
-          {/* Responsive Grid of Images */}
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-1'>
-            {/* image 02 */}
+          <div className='flex flex-col items-center justify-center space-y-1' >
+          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1 container'>
+
+          {/* image 02 */}
             <Image
               width={500}
               height={500}
               alt='Wooden Chair'
               src={"/Image3.png"}
-              className='w-full h-[250px] cursor-pointer hover:border-2'
+              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
             {/* image 03 */}
@@ -40,16 +40,21 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image9.png"}
-              className='w-full h-[250px] cursor-pointer hover:border-2'
+              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
-            {/* image 04 */}
-            <Image
+
+          </div>
+
+          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1'>
+
+                  {/* image 04 */}
+                  <Image
               width={500}
               height={500}
               alt='Wooden Chair'
               src={"/Image11.png"}
-              className='w-full h-[250px] cursor-pointer hover:border-2'
+              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
             {/* image 05 */}
@@ -58,12 +63,25 @@ const ExploreNew = () => {
               height={500}
               alt='Wooden Chair'
               src={"/Image14.png"}
-              className='w-full h-[250px] cursor-pointer hover:border-2'
+              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
+
+
+          </div>
+          </div>
+
+          </div>
+
+           
+          
+
+          
+            
+    
           </div>
         </div>
 
-      </div>
+    
     
   );
 }

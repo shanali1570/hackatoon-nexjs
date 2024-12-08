@@ -10,8 +10,10 @@ const OurProduct = () => {
        Our Products
        </h1>
 
-        <div className='grid grid-1 md:grid-cols-2 lg:grid-cols-4  gap-10 justify-center'>
+        <div className='flex flex-col lg:flex-row items-center justify-center  gap-10'>
         
+        
+        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
         {/* Product 01 */}
         <div className='w-[250px] h-[377px] relative'>
             <div className='flex items-center justify-center rounded-md text-white hover:border-2 cursor-pointer text-[13px] w-[49px] h-[26px] bg-[#01ad5a] absolute left-[20px] top-[40px]'>
@@ -70,6 +72,9 @@ const OurProduct = () => {
             </div>
         </div>
 
+        </div>
+
+        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
         {/* Product 03 */}
         <div className='w-[250px] h-[377px] relative'>
             <Image
@@ -94,6 +99,7 @@ const OurProduct = () => {
             </div>
         </div>
 
+
         {/* Product 04 */}
         <div className='w-[250px] h-[377px] relative'>
             <Image
@@ -116,8 +122,20 @@ const OurProduct = () => {
                     <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
                 </div>
             </div>
+        
+        
+        
         </div>
 
+        </div></div>
+        
+
+
+
+
+        <div className='flex flex-col lg:flex-row items-center justify-center gap-10'>
+        
+        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
         {/* Product 05 */}
         <div className='w-[250px] h-[377px] relative'>
             <div className='flex items-center justify-center hover:border-2 cursor-pointer rounded-md text-white text-[13px] w-[49px] h-[26px] bg-[#01ad5a] absolute left-[20px] top-[40px]'>
@@ -176,6 +194,9 @@ const OurProduct = () => {
             </div>
         </div>
 
+        </div>
+        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
+
         {/* Product 07 */}
         <div className='w-[250px] h-[377px] relative'>
             <Image
@@ -223,7 +244,7 @@ const OurProduct = () => {
                 </div>
             </div>
         </div>
-
+        </div>
         </div>
     </div>
   );
