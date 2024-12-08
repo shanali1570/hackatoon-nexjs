@@ -30,7 +30,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/itemcategory2.jfif"}
+              src={"/itemcategory4.jfif"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -39,7 +39,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/itemcategory4.jfif"}
+              src={"/itemcategory2.jfif"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -48,7 +48,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/itemcategory3.jfif"}
+              src={"/itemcategory5.jfif"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -57,7 +57,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/itemcategory5.jfif"}
+              src={"/itemcategory3.jfif"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
           </div>
