@@ -1,13 +1,6 @@
-import { Poppins } from '@next/font/google';
 import type { Metadata } from "next";
 import "./globals.css";
 
-// Load Poppins font
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '400', '600', '700', '900'],
-  variable: '--font-poppins',
-});
 
 export const metadata: Metadata = {
   title: "Hacktoon Next Js App",
@@ -22,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased`}
+        className={` antialiased`}
       >
         {children}
       </body>
