@@ -42,10 +42,10 @@ const NavBar = () => {
       </div>
 
       {/* Contact Information (always visible on all screen sizes) */}
-      <div className='flex items-start justify-center gap-2'>
+      <div className='flex flex-col md:flex-row items-start justify-center gap-1'>
         
         <h2 className='text-[14px] hover:underline'><Link href={'/contact'}>Contact:</Link></h2>
-        <h2 className='font-bold text-[14px] hover:underline'><Link href={'/contact'}>{`(808) 555-0111`}</Link></h2>
+        <h2 className='font-bold text-[10px] md:text-[14px] hover:underline'><Link href={'/contact'}>{`(808) 555-0111`}</Link></h2>
         
         
       </div>
