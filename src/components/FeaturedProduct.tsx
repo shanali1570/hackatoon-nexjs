@@ -4,7 +4,7 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const FeaturedProduct = () => {
   return (
-    <div className='w-full px-4 sm:px-18 lg:px-32 py-8'>
+    <div className='w-full px-12 sm:px-18 lg:px-32 py-8'>
        <h1 className='text-[#272343] text-[32px] font-inter mb-8'>
        Featured Products
        </h1>
