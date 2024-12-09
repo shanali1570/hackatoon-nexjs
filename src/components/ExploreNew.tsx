@@ -18,7 +18,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/itemcategory1.png"}
+              src={"/Image3.png"}
               className='w-[350] h-[400] cursor-pointer hover:border-2'
             />
 
@@ -30,7 +30,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/Image3.png"}
+              src={"/Image4.png"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -39,7 +39,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/Image9.png"}
+              src={"/Image1.png"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -53,7 +53,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/Image11.png"}
+              src={"/Image9.png"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
@@ -62,7 +62,7 @@ const ExploreNew = () => {
               width={500}
               height={500}
               alt='Wooden Chair'
-              src={"/Image14.png"}
+              src={"/Image1.png"}
               className='w-[250px] h-[250px] cursor-pointer hover:border-2'
             />
 
