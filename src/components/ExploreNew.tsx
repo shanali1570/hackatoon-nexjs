@@ -3,84 +3,76 @@ import Image from 'next/image';
 
 const ExploreNew = () => {
   return (
-    <div className='w-full px-36 sm:px-8 py-8  flex justify-center items-start relative'>
+    <div className='w-full lg:ml-8 sm:px-8 py-8  flex justify-center items-center relative'>
      
-     <h1 className=' h-[50px] w-[399px] transform lg:-rotate-90 -rotate-90 sm:-rotate-90 text-[25px] font-semibold absolute left-0  top-64 '>
-              Explore new and popular styles
-            </h1>
-        <div className='flex flex-col lg:flex-row items-center justify-center gap-2'>
-          {/* Vertical Text and Main Image Section */}
-          
-          <div className='flex flex-col lg:flex-row items-center  mb-6 lg:mb-0 space-x-2 space-y-2'>
-            
- {/* image 01 */}
-            <Image
-              width={500}
-              height={500}
-              alt='Wooden Chair'
-              src={"/Image3.png"}
-              className='w-[350] h-[400] cursor-pointer hover:border-2'
-            />
+     <div className="flex flex-col lg:flex-row lg:-space-x-10 space-y-6 lg:space-y-0">
+  {/* Vertical Text and Main Image Section */}
+  <div className=" space-y-4  lg:space-y-0 lg:-space-x-16 ">
 
-          <div className='flex flex-col items-center justify-center space-y-1' >
-          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1 co'>
-
-          {/* image 02 */}
-            <Image
-              width={500}
-              height={500}
-              alt='Wooden Chair'
-              src={"/Image4.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
-            />
-
-            {/* image 03 */}
-            <Image
-              width={500}
-              height={500}
-              alt='Wooden Chair'
-              src={"/Image1.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
-            />
-
-
-          </div>
-
-          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1'>
-
-                  {/* image 04 */}
-                  <Image
-              width={500}
-              height={500}
-              alt='Wooden Chair'
-              src={"/Image9.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
-            />
-
-            {/* image 05 */}
-            <Image
-              width={500}
-              height={500}
-              alt='Wooden Chair'
-              src={"/Image1.png"}
-              className='w-[250px] h-[250px] cursor-pointer hover:border-2'
-            />
-
-
-          </div>
-          </div>
-
-          </div>
-
-           
-          
-
-          
-            
+    {/* Heading positioned to the left of Image 01 */}
+    <div className=' absolute  inset-y-0 lg:-rotate-90 rotate-0  font-semibold text-[22px] lg:text-[22px]'>
+    <span>
+    Explore new and popular styles
+  </span>
+    </div>
     
-          </div>
-        </div>
 
+    {/* Image 01 */}
+    <Image
+      width={500}
+      height={500}
+      alt="Wooden Chair"
+      src="/Image3.png"
+      className="w-[320px] lg:w-[550px] h-[320px] lg:h-[485px] cursor-pointer hover:border-2"
+    />
+  </div>
+
+  <div className="flex flex-col  items-center justify-center gap-6  ">
+    <div className="flex flex-col sm:flex-row items-center gap-6">
+      {/* Image 02 */}
+      <Image
+        width={500}
+        height={500}
+        alt="Wooden Chair"
+        src="/Image4.png"
+        className="w-[320px] h-[320px] lg:w-[230px] lg:h-[230px] cursor-pointer hover:border-2 transition-all"
+      />
+
+      {/* Image 03 */}
+      <Image
+        width={500}
+        height={500}
+        alt="Wooden Chair"
+        src="/Image1.png"
+        className="w-[320px] h-[320px] lg:w-[230px] lg:h-[230px] cursor-pointer hover:border-2 transition-all"
+      />
+    </div>
+
+    <div className="flex flex-col sm:flex-row items-center gap-6">
+      {/* Image 04 */}
+      <Image
+        width={500}
+        height={500}
+        alt="Wooden Chair"
+        src="/Image9.png"
+        className="w-[320px] h-[320px] lg:w-[230px] lg:h-[230px] cursor-pointer hover:border-2 transition-all"
+      />
+
+      {/* Image 05 */}
+      <Image
+        width={500}
+        height={500}
+        alt="Wooden Chair"
+        src="/Image1.png"
+        className="w-[320px] h-[320px] lg:w-[230px] lg:h-[230px] cursor-pointer hover:border-2 transition-all"
+      />
+    </div>
+  </div>
+</div>
+
+
+
+</div>
     
     
   );
