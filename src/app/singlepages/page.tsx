@@ -53,7 +53,7 @@ const Page = () => {
         
         </div>
 
-        <div className='pt-14 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full px-4 sm:px-8'>
+        <div className='pt-14 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full px-4 sm:px-8'>
           {/* Image 01 */}
           
           <div className='space-y-2'>
