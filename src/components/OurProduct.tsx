@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { CiShoppingCart } from 'react-icons/ci';
+import CartButton from './CartButton';
 
 const OurProduct = () => {
   return (
@@ -35,9 +36,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -66,9 +65,7 @@ const OurProduct = () => {
                         <div className='border-[1px] border-[#9a9caa] w-[35px] absolute left-9 bottom-[10px]' />
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -93,9 +90,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -118,9 +113,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae] '>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         
         
@@ -157,9 +150,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center  rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -188,9 +179,7 @@ const OurProduct = () => {
                         <div className='border-[1px] border-[#9a9caa] w-[35px] absolute left-9 bottom-[10px]' />
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -215,9 +204,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
 
@@ -239,9 +226,7 @@ const OurProduct = () => {
                         $20
                     </span>
                 </div>
-                <div className='w-[44px] h-[44px] flex items-center justify-center bg-white rounded-md hover:bg-[#029fae]'>
-                    <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-                </div>
+                <CartButton/>
             </div>
         </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { CiShoppingCart } from 'react-icons/ci';
+import CartButton from './CartButton';
 const Product = () => {
   return (
     <div className='w-full px-4 sm:px-8 lg:px-32 py-8'>
@@ -31,9 +32,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -62,9 +61,7 @@ const Product = () => {
                      <div className='border-[1px] border-[#9a9caa] w-[35px] absolute left-9 bottom-[10px]' />
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -86,9 +83,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -110,9 +105,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -137,9 +130,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -168,9 +159,7 @@ const Product = () => {
                      <div className='border-[1px] border-[#9a9caa] w-[35px] absolute left-9 bottom-[10px]' />
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -192,9 +181,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -216,9 +203,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -244,9 +229,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -275,9 +258,7 @@ const Product = () => {
                      <div className='border-[1px] border-[#9a9caa] w-[35px] absolute left-9 bottom-[10px]' />
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -299,9 +280,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
 
@@ -323,9 +302,7 @@ const Product = () => {
                      $20
                  </span>
              </div>
-             <div className='w-[44px] h-[44px] flex items-center justify-center hover:bg-[#029fae] rounded-md'>
-                 <CiShoppingCart className='w-[28px] h-[23.5px] text-black hover:text-white' />
-             </div>
+             <CartButton/>
          </div>
      </div>
      </div>
