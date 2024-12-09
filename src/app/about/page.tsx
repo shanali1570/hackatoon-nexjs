@@ -98,7 +98,7 @@ const Page = () => {
                     width={500}
                     height={500}
                     alt='Library Stool Chair'
-                    src={"/new1.jfif"}
+                    src={"/large.png"}
                     className='w-[630px] h-[375px] hover:border-2'
                 />            
             <div className='text-[#2a254b] text-[18px]'>
@@ -115,7 +115,7 @@ const Page = () => {
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
-                src={"/new2.jfif"}
+                src={"/Photo.png"}
                 className='w-[305px] h-[375px] hover:border-2'
             />            
         <div className='text-[#2a254b] text-[18px]'>
@@ -132,7 +132,7 @@ const Page = () => {
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
-                src={"/new3.jfif"}
+                src={"/Parent.png"}
                 className='w-[305px] h-[375px] hover:border-2'
             />            
         <div className='text-[#2a254b] text-[18px]'>

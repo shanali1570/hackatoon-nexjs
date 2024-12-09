@@ -23,7 +23,7 @@ const ExploreNew = () => {
             />
 
           <div className='flex flex-col items-center justify-center space-y-1' >
-          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1 container'>
+          <div className='flex flex-col sm:flex-row items-center  mb-6 lg:mb-0 space-x-1 space-y-1 co'>
 
           {/* image 02 */}
             <Image
