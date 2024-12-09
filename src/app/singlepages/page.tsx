@@ -46,7 +46,7 @@ const Page = () => {
 
 
         <div className='mt-36 flex justify-between items-center'>
-       <h1 className='text-[#272343] text-[32px] font-inter mb-8'>
+       <h1 className='text-[#272343] text-[25px] md:text-[32px] font-inter mb-8'>
        Featured Products
        </h1>
         <p className='text-[18px] underline'>View All</p>
