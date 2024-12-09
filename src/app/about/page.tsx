@@ -98,7 +98,7 @@ const Page = () => {
                     width={500}
                     height={500}
                     alt='Library Stool Chair'
-                    src={"/large.png"}
+                    src={"/Large.png"}
                     className='w-[630px] h-[375px] hover:border-2'
                 />            
             <div className='text-[#2a254b] text-[18px]'>
