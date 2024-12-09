@@ -4,11 +4,11 @@ import Image from 'next/image';
 const TopCatogery = () => {
   return (
     <div className='w-full px-4 sm:px-8 lg:px-32 py-8'>
-       <h1 className='text-[#272343] text-[32px] font-inter mb-8'>
+       <h1 className='text-[#272343] text-center lg:text-left text-[32px] font-inter mb-8'>
        Featured Products
        </h1>
 
-        <div className='grid grid-1 md:grid-cols-2 lg:flex  gap-6 justify-center'>
+        <div className='grid grid-cols-1  place-items-center sm:flex  gap-6 justify-between'>
         
         {/* Product 01 */}
         <div className='w-[312px] h-[312px] relative'>

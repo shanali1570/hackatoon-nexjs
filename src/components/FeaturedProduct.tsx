@@ -5,12 +5,12 @@ import CartButton from './CartButton';
 
 const FeaturedProduct = () => {
   return (
-    <div className='w-full px-18 lg:px-32 py-8'>
-       <h1 className='text-[#272343] text-[32px] font-inter mb-8'>
+    <div className='w-full  lg:px-32 py-8 '>
+       <h1 className='text-[#272343] text-center lg:text-left text-[32px]  font-inter mb-8'>
        Featured Products
        </h1>
 
-        <div className='grid grid-1 md:grid-cols-2 lg:flex  gap-6 justify-center'>
+        <div className='grid grid-1 sm:grid-cols-2 lg:flex lg:justify-between  lg:gap-6 place-items-center'>
         
         {/* Product 01 */}
         <div className='w-[312px] h-[377px] relative'>

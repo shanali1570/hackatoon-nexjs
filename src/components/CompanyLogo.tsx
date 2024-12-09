@@ -4,9 +4,9 @@ import Image from 'next/image';
 const CompanyLogo = () => {
   return (
     <div className='w-full px-4 sm:px-8 lg:px-32 py-8'>
-      <div className="flex flex-nowrap justify-center items-center gap-8 overflow-x-auto">
+      <div className="flex flex-nowrap justify-evenly items-center gap-8 overflow-x-auto">
         {/* Each logo will scale responsively */}
-        <div className="flex justify-center items-center">
+        <div className="flex  justify-center items-center">
           <Image
             width={500}
             height={500}

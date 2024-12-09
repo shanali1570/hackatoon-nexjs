@@ -11,12 +11,12 @@ const OurProduct = () => {
        Our Products
        </h1>
 
-        <div className='flex flex-col lg:flex-row items-center justify-center  gap-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 place-items-center'>
         
         
-        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
+        
         {/* Product 01 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <div className='flex items-center justify-center rounded-md text-white hover:border-2 cursor-pointer text-[13px] w-[49px] h-[26px] bg-[#01ad5a] absolute left-[20px] top-[40px]'>
                 <p>New</p>
             </div>
@@ -25,7 +25,7 @@ const OurProduct = () => {
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image1.png"}
-                className='w-[312px] h-[312px] cursor-pointer hover:border-2 object-contain'
+                className='w-[320px] h-[320px]  object-contain cursor-pointer hover:border-2 '
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -41,7 +41,7 @@ const OurProduct = () => {
         </div>
 
         {/* Product 02 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className='relative'>
             <div className='flex items-center justify-center rounded-md hover:border-2 cursor-pointer text-white text-[13px] w-[49px] h-[26px] bg-[#f5813f] absolute left-[20px] top-[40px]'>
                 <p>New</p>
             </div>
@@ -50,7 +50,7 @@ const OurProduct = () => {
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image2.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px]  object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -69,17 +69,17 @@ const OurProduct = () => {
             </div>
         </div>
 
-        </div>
+        
 
-        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
+        
         {/* Product 03 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <Image
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image3.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px]  object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -96,13 +96,13 @@ const OurProduct = () => {
 
 
         {/* Product 04 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className='relative'>
             <Image
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image4.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px]  object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -120,17 +120,13 @@ const OurProduct = () => {
         
         </div>
 
-        </div></div>
+
+
+
+
         
-
-
-
-
-        <div className='flex flex-col lg:flex-row items-center justify-center gap-10'>
-        
-        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
         {/* Product 05 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <div className='flex items-center justify-center hover:border-2 cursor-pointer rounded-md text-white text-[13px] w-[49px] h-[26px] bg-[#01ad5a] absolute left-[20px] top-[40px]'>
                 <p>New</p>
             </div>
@@ -139,7 +135,7 @@ const OurProduct = () => {
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image11.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px] object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -155,7 +151,7 @@ const OurProduct = () => {
         </div>
 
         {/* Product 06 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <div className='flex items-center hover:border-2 cursor-pointer justify-center rounded-md text-white text-[13px] w-[49px] h-[26px] bg-[#f5813f] absolute left-[20px] top-[40px]'>
                 <p>New</p>
             </div>
@@ -164,7 +160,7 @@ const OurProduct = () => {
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image12.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px] object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -183,17 +179,17 @@ const OurProduct = () => {
             </div>
         </div>
 
-        </div>
-        <div className='flex flex-col md:flex-row items-center justify-center  gap-10'>
+        
+        
 
         {/* Product 07 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <Image
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image13.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px] object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -209,13 +205,13 @@ const OurProduct = () => {
         </div>
 
         {/* Product 08 */}
-        <div className='w-[250px] h-[377px] relative'>
+        <div className=' relative'>
             <Image
                 width={500}
                 height={500}
                 alt='Library Stool Chair'
                 src={"/Image14.png"}
-                className='w-[312px] h-[312px] object-contain cursor-pointer hover:border-2'
+                className='w-[320px] h-[320px] object-contain cursor-pointer hover:border-2'
             />
             <div className='flex items-center justify-between mt-4'>
                 <div>
@@ -229,8 +225,7 @@ const OurProduct = () => {
                 <CartButton/>
             </div>
         </div>
-        </div>
-        </div>
+</div>        
     </div>
   );
 }
