@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import { CiShoppingCart } from 'react-icons/ci';
 import CartButton from './CartButton';
 const Product = () => {
   return (
