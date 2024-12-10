@@ -1,113 +1,100 @@
-"use client"
+"use client";
 // app/products/[id]/page.tsx
-import { useParams } from 'next/navigation';
-import { products } from '../../lib/productData';  // Import the product data
-import Image from 'next/image'
-import Link from 'next/link'
-
+import { useParams } from "next/navigation";
+import { products } from "../../lib/productData"; // Import the product data
+import Image from "next/image";
+import Link from "next/link";
 
 const Page = () => {
-  const { id } = useParams();  // Get the 'id' from the URL params
+  const { id } = useParams(); // Get the 'id' from the URL params
 
   // Find the product that matches the 'id'
   const product = products.find((p) => p.id === id);
 
   if (!product) {
-    return <div>Product not found!</div>; // In case the product is not found
+    return <div className="text-center mt-20 text-xl">Product not found!</div>; // In case the product is not found
   }
 
-
-  
-     // Slice the products array to show only the first 5 products
-     const displayedProducts = products.slice(0, 5); // Display only the first 5 products
+  // Slice the products array to show only the first 5 products
+  const displayedProducts = products.slice(0, 5);
 
   return (
-    <div className='  sm:px-8  py-8 mb-48'>
-
-<div className='mx-24'>
-
-{/* dynamic product single details */}
-<div className='w-full flex flex-col  lg:flex-row lg:justify-start gap-20'>
-        <Image
+    <div className="sm:px-6 lg:px-12 py-8 mb-48">
+      <div className="max-w-7xl mx-20">
+        {/* Dynamic Product Single Details */}
+        <div className="flex flex-col lg:flex-row items-start gap-12">
+          {/* Product Image */}
+          <Image
             width={500}
             height={500}
             alt={product.name}
             src={product.imagelink}
-            className='w-[480px] h-[480px]  object-contain cursor-pointer hover:border-2'
+            className="w-full lg:w-[480px] h-auto object-contain cursor-pointer hover:border-2"
           />
-        
-        <div className='w-[300px] '>
-            <div className=' space-y-2  pb-6'>
-                {/* product name */}
-                <h1 className='text-[50px] w-[300px] break-words text-justify'>
-                    {product.name}
-                </h1>
 
-                <div className='bg-[#029fae] hover:border-2 w-[144px] h-[44px] flex items-center justify-center rounded-3xl'>
-                    <span className='text-[20px] text-white'>${product.amount}.00 USD</span>
-                </div>
+          {/* Product Details */}
+          <div className="flex-1 space-y-6">
+            {/* Product Name and Price */}
+            <div className="space-y-4">
+              <h1 className="text-[32px] lg:text-[50px] font-bold break-words">
+                {product.name}
+              </h1>
+              <div className="bg-[#029fae] hover:border-2 w-max h-[44px] flex items-center justify-center rounded-3xl px-6">
+                <span className="text-[20px] text-white">{product.amount}.00 USD</span>
+              </div>
             </div>
-            <div className='border-[1px] border-gray-500'/>
-            <div className='my-4 space-y-4'>
-            <h1 className='text-[20px]'>
-                {product.detail}
-                </h1>
 
-                <div className='bg-[#029fae] hover:border-2 w-[212px] h-[63px] flex items-center justify-center rounded-lg'>
-                    <span className='text-[20px] text-white'>
-                      <Link href={"/"}>
-                      Add To cart
-                      </Link></span>
-                </div> 
-
+            {/* Product Details */}
+            <div className="border-t border-gray-300 pt-4">
+              <h2 className="text-[18px]">{product.detail}</h2>
             </div>
-        </div>
 
-        </div>
-
-{/* Featured Product Section */}
-        <div className='mt-36 flex justify-evenly   sm:justify-between items-center'>
-       <h1 className='text-[#272343] text-center lg:text-left text-[32px]  font-inter mb-8'>
-       Featured Products
-       </h1>
-        <p className='text-[18px] hover:underline'><Link href={"/product"}>View All</Link></p>
-        
-        </div>
-
-        <ul className='mt-14 grid  gap-2 grid-1 sm:grid-cols-2 lg:flex lg:justify-between  place-items-center'>
-  
-          {/* Image 01 */}
-          
-          {displayedProducts.map((product) => (
-          <li key={product.id} className="">
-
-          <div className='space-y-2'>
-            <Link href={`/product/${product.id}`} className=''>
-            <Image
-            width={500}
-            height={500}
-            alt={product.name}
-            src={product.imagelink}
-            className='w-[320px] lg:w-full h-auto object-contain  hover:border-[1px]'
-          />  
-            </Link>
-          
-          <div className='flex items-center justify-between '>
-            <h1 className='text-[#272343] text-[14px]'>{product.name}</h1>
-            <span className='font-bold text-[14px]'>{product.amount}</span>
+            {/* Add to Cart Button */}
+            <div className="bg-[#029fae] hover:border-2 w-full lg:w-[212px] h-[63px] flex items-center justify-center rounded-lg">
+              <Link href={"/"}>
+                <span className="text-[20px] text-white">Add To Cart</span>
+              </Link>
+            </div>
           </div>
-            </div>
-            </li>
-        ))}
-          
-          
-        </ul>
+        </div>
 
+        {/* Featured Products Section */}
+        <div className="mt-36">
+          <div className="flex justify-between items-center">
+            <h1 className="text-[#272343] text-[24px] lg:text-[32px] font-semibold">
+              Featured Products
+            </h1>
+            <Link href="/product" className="text-[18px] hover:underline">
+              View All
+            </Link>
+          </div>
 
-</div>
-
+          {/* Featured Products Grid */}
+          <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {displayedProducts.map((product) => (
+              <li key={product.id} className="flex flex-col items-center">
+                {/* Featured Product Image */}
+                <Link href={`/product/${product.id}`}>
+                  <Image
+                    width={500}
+                    height={500}
+                    alt={product.name}
+                    src={product.imagelink}
+                    className=" object-contain hover:border-2"
+                  />
+                </Link>
+                {/* Product Name and Price */}
+                <div className="flex justify-between items-center w-full mt-2">
+                  <h1 className="text-[#272343] text-[14px]">{product.name}</h1>
+                  <span className="font-bold text-[14px]">${product.amount}</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 const FooterTop = () => {
   return (
-    <div className='w-full  h-auto  pt-[80px] border-t-[1px] border-[#e1e3e5]'>
+    <div className='w-full  h-auto pt-[80px] border-t-[1px] border-[#e1e3e5]'>
     
-    <div className='mx-32 gap-10 flex flex-col  lg:flex-row '>
+    <div className='mx-20 sm:mx-32  grid grid-cols-2 lg:grid-cols-4'>
           {/* Logo Section */}
       <div className="space-y-4  flex flex-col lg:items-start  lg:text-left">
         <div className=" sm:flex items-center justify-start gap-4">
@@ -21,14 +21,14 @@ const FooterTop = () => {
           /></Link>
           <h1 className="text-[26px] hover:text-[27px] hover:cursor-pointer font-bold"><Link href={'/'}>Comforty</Link> </h1>
         </div>
-        <p className='text-[14px] lg:text-[16px]  lg:pr-8 font-Inter font-bold  text-[#272343] '>
+        <p className='text-[14px] lg:text-[16px] lg:pr-8 font-Inter font-bold  text-[#272343] '>
           Vivamus tristique odio sit amet velit semper, 
-          
+          <br/>
           eu posuere turpis interdum. 
-          
+          <br/>
           Cras egestas purus
         </p>
-        <div className="flex items-center justify-between w-[206px] h-[38px]">
+        <div className="flex items-center justify-between w-[150px] md:w-[206px] h-[38px]">
           <div className="w-[38px] h-[38px] hover:border-[1px] hover:border-[#007580] rounded-full flex items-center justify-center">
           <Link href={"/"}>
           <FaFacebook className='text-gray-500 hover:text-[#007580]' />
@@ -61,14 +61,14 @@ const FooterTop = () => {
         </div>
       </div>
 
-      <div className='md:flex  gap-14 '>
-          <div className='flex gap-14'>
+      
+          
                 {/* Categories Section */}
-                    <div className="space-y-6">
+                    <div className="space-y-6   ">
                       <h1 className="text-[#9a9caa] font-bold text-[14px] font-inter">
                         <Link href={"/"}>CATEGORY</Link>
                         </h1>
-                      <div className='space-y-3'>
+                      <div className='space-y-3  '>
                         <h1 className="text-[#272343] hover:text-[#007580] hover:underline font-bold text-[16px] font-inter">
                           <Link href={"/"}>Sofa</Link></h1>
                         <h1 className="text-[#272343]  hover:text-[#007580] hover:underline font-bold text-[16px] font-inter">
@@ -100,7 +100,7 @@ const FooterTop = () => {
                       </div>
                     </div>
 
-        </div>
+      
   
           {/* Newsletter Section */}
           <div className='space-y-8 '>
@@ -121,7 +121,7 @@ const FooterTop = () => {
               Nullam tincidunt erat enim.
             </h1>
           </div>
-      </div>
+      
 
     </div>
       
