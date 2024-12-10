@@ -7,7 +7,7 @@ const FooterTop = () => {
   return (
     <div className='w-full  h-auto pt-[80px] border-t-[1px] border-[#e1e3e5]'>
     
-    <div className='mx-10 lg:mx-32  grid grid-cols-2 lg:grid-cols-4'>
+    <div className='mx-4 lg:mx-32  grid grid-cols-2 lg:grid-cols-4'>
           {/* Logo Section */}
       <div className="space-y-4  flex flex-col lg:items-start  lg:text-left">
         <div className=" sm:flex items-center justify-start gap-4">
