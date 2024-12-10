@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return ( 
-    <div className='w-full px-4 sm:px-8 lg:px-32'>
+    <div className=''>
         <div className='bg-[#f0f2f3]  flex flex-col lg:flex-row items-center justify-between py-16 pr-10 rounded-bl-lg'>
 
       {/* Left Section (Text and Button) */}

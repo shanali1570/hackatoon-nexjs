@@ -10,7 +10,7 @@ const NavBar = () => {
     { name: "Home", link: "/" },
     { name: "Shop", link: "/shop" },
     { name: "Product", link: "/product" },
-    { name: "Pages", link: "/singlepages" },
+    { name: "Pages", link: "/product/2" },
     { name: "About", link: "/about" },
   ];
 

@@ -9,7 +9,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 
 const Page = () => {
   return (
-    <div className="w-full px-4 sm:px-8 lg:px-32 py-8">
+    <div className="w-full flex flex-col items-center justify-center px-4 sm:px-8 lg:px-32 py-8  mb-10 lg:mb-48">
 
       <div className='flex flex-col items-center justify-center'>
         <h1 className='text-center font-bold text-[30px] sm:text-[35px] md:text-[40px]'>Get In Touch With Us</h1>
@@ -19,7 +19,7 @@ const Page = () => {
         </p>
       </div>
 
-      <div className="w-[800px] mx-auto flex flex-col lg:flex-row items-start justify-center gap-8 mt-12">
+      <div className=" mx-auto flex flex-col items-center justify-center md:flex-row  gap-40 mt-12">
         {/* Contact Left Side */}
         <div className="space-y-8 flex-1">
           <div className="flex items-start gap-4">
@@ -116,9 +116,9 @@ const Page = () => {
       </div>
 
 
-      <div className="w-full px-10 bg-[#f4f4f4] h-[270px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 mt-12">
+      <div className="w-full py-8 bg-[#f4f4f4] lg:h-[270px]  flex flex-col lg:flex-row items-center justify-center gap-40 mt-24">
         
-        <div className='flex gap-2'>
+        <div className='flex gap-2 ml-10 items-start justify-center'>
             <HiOutlineTrophy className='text-[45px]' />
             <div className='flex flex-col'>
                 <strong>High Quality</strong>
@@ -126,7 +126,7 @@ const Page = () => {
             </div>
         </div>
         
-        <div className='flex gap-2'>
+        <div className='flex gap-2 ml-4 items-center justify-center'>
             <HiOutlineBadgeCheck className='text-[45px]' />
             <div className='flex flex-col'>
                 <strong>Warranty Protection</strong>
@@ -134,7 +134,7 @@ const Page = () => {
             </div>
         </div>
 
-        <div className='flex gap-2'>
+        <div className='flex items-center justify-center gap-2'>
             <MdOutlineSupportAgent className='text-[45px]' />
             <div className='flex flex-col'>
                 <strong>24 / 7 Support</strong>

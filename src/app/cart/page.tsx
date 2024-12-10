@@ -3,7 +3,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div>
+    <div className='mb-10 lg:mb-48 mt-10'>
         <Cart/>
     </div>
   )

@@ -25,13 +25,12 @@ const MidHeader = () => {
         <Link href={"/cart"} className='font-medium flex items-center justify-center gap-2'>
           <CiShoppingCart />
           <span className='text-[12px] font-medium'>Cart</span>
-        </Link>
         
         <div className='bg-[#007580] rounded-full w-[20px] h-[20px] text-white flex items-center justify-center'>
-          <Link href={"/"}>
             <p className='text-[14px]'>2</p>
-          </Link>
         </div>
+        </Link>
+        
       </div>
 
     </div>

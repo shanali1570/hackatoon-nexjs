@@ -7,7 +7,7 @@ import { LuSprout } from "react-icons/lu";
 
 const Page = () => {
   return (
-    <div className="w-full px-4 sm:px-8 lg:px-32 py-8">
+    <div className="w-full px-4 sm:px-8 lg:px-32 py-8 mb-10 lg:mb-48">
       <div className="flex flex-col lg:flex-row justify-between gap-4">
         {/* Left Section: About Us */}
         <div className="w-full lg:w-[650px] bg-[#007580]  text-white p-6 rounded-lg">
