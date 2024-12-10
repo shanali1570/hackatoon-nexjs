@@ -12,13 +12,13 @@ const Product = ({num=products.length}:{num?: number}) => {
     <div className='' >
       
     
-    <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 place-items-center'  >
+    <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-8  place-items-center'  >
       {displayedProducts.map((product) => (
         <li key={product.id} className="product-item">
           
                {/* Product 01 */}
-   <    div className='w-[250px] h-[377px] relative'>
-       <div className= {`${product.newbtn} bg-[${product.newbtncol}] flex items-center justify-center rounded-md cursor-pointer hover:border-2 text-white text-[13px] w-[49px] h-[26px]  absolute left-[20px] top-[40px]`}>
+   <    div className=' h-[377px] relative'>
+       <div className= {`${product.newbtn} ${product.newbtncol} flex items-center justify-center rounded-md cursor-pointer hover:border-2 text-white text-[13px] w-[49px] h-[26px]  absolute left-[20px] top-[40px]`}>
            <p>New</p>
        </div>
        <Link href={`/product/${product.id}`}>

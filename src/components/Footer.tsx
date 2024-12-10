@@ -3,9 +3,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='w-full h-[74px] border-t-[1px] border-[#e1e3e5] px-4 sm:px-8 lg:px-[150px] py-[14px] flex items-center justify-between'>
+    <div className=''>
     
-      {/* Footer Text */}
+    <div className='flex flex-col-reverse lg:flex-row mt-6 items-center justify-between mx-32'>
+        {/* Footer Text */}
       <div className="w-full sm:w-auto flex items-center justify-center text-center sm:text-left">
         <p className="text-[14px] font-poppins text-[#9a9caa]">
           @ 2021 - Blogy - Designed & Developed by  &nbsp;
@@ -23,6 +24,9 @@ const Footer = () => {
           className='w-[227px] h-[27px] text-[#e1e3e5]'
         />
       </div>
+
+    </div>
+      
     </div>
   );
 }

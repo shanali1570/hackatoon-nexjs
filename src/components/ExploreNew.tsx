@@ -5,9 +5,9 @@ const ExploreNew = () => {
   return (
     <div className='w-full lg:ml-8 sm:px-8 py-8   relative'>
      
-     <div className="mt-14 flex flex-col justify-center items-center lg:flex-row lg:-space-x-10 space-y-6 lg:space-y-0">
+     <div className="mt-14 flex flex-col justify-center items-center lg:flex-row lg:-space-x-10 -space-x-4 space-y-6 lg:space-y-0">
   {/* Vertical Text and Main Image Section */}
-  <div className=" space-y-4  lg:space-y-0 lg:-space-x-16 ">
+  <div className=" space-y-4   lg:space-y-0  lg:-space-x-16 ">
 
     {/* Heading positioned to the left of Image 01 */}
     <div className=' absolute  inset-y-0 lg:-rotate-90 rotate-0  font-semibold text-[22px] lg:text-[22px]'>
@@ -64,7 +64,7 @@ const ExploreNew = () => {
         height={500}
         alt="Wooden Chair"
         src="/Image1.png"
-        className="w-[320px] h-[320px] lg:h-[230px] cursor-pointer hover:border-2 transition-all"
+        className="w-[320px] h-[320px]  lg:h-[230px] cursor-pointer hover:border-2 transition-all"
       />
     </div>
   </div>

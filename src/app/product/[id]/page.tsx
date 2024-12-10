@@ -22,21 +22,22 @@ const Page = () => {
      const displayedProducts = products.slice(0, 5); // Display only the first 5 products
 
   return (
-    <div className='w-full px-4 sm:px-8 lg:px-32 py-8 mb-48'>
+    <div className='  sm:px-8  py-8 mb-48'>
 
+<div className='mx-24'>
 
 {/* dynamic product single details */}
-        <div className='flex flex-col md:flex-row items-start justify-start gap-8'>
+<div className='w-full flex flex-col  lg:flex-row lg:justify-start gap-20'>
         <Image
             width={500}
             height={500}
             alt={product.name}
             src={product.imagelink}
-            className='w-full h-auto object-contain cursor-pointer hover:border-2'
+            className='w-[480px] h-[480px]  object-contain cursor-pointer hover:border-2'
           />
         
-        <div>
-            <div className='w-[500px] space-y-2  pb-6'>
+        <div className='w-[300px] '>
+            <div className=' space-y-2  pb-6'>
                 {/* product name */}
                 <h1 className='text-[50px] w-[300px] break-words text-justify'>
                     {product.name}
@@ -65,7 +66,7 @@ const Page = () => {
         </div>
 
 {/* Featured Product Section */}
-        <div className='mt-36 flex justify-between items-center'>
+        <div className='mt-36 flex justify-evenly   sm:justify-between items-center'>
        <h1 className='text-[#272343] text-center lg:text-left text-[32px]  font-inter mb-8'>
        Featured Products
        </h1>
@@ -73,7 +74,7 @@ const Page = () => {
         
         </div>
 
-        <ul className='mt-14 grid grid-1 sm:grid-cols-2 lg:flex lg:justify-between  lg:gap-6 place-items-center'>
+        <ul className='mt-14 grid  gap-2 grid-1 sm:grid-cols-2 lg:flex lg:justify-between  place-items-center'>
   
           {/* Image 01 */}
           
@@ -87,7 +88,7 @@ const Page = () => {
             height={500}
             alt={product.name}
             src={product.imagelink}
-            className='w-full h-auto object-contain  hover:border-[1px]'
+            className='w-[320px] lg:w-full h-auto object-contain  hover:border-[1px]'
           />  
             </Link>
           
@@ -101,6 +102,9 @@ const Page = () => {
           
           
         </ul>
+
+
+</div>
 
     </div>
   )
